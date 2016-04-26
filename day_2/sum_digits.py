@@ -6,10 +6,8 @@ def sum_digits(A):
 	'''
 	total = 0
 	for i in A:
-		item = str(i)
-		item.split()
-		for i in item:
+		for i in str(i):
 			total += int(i)
+	
 	return total
 
-print sum_digits([10, 30, 45])
