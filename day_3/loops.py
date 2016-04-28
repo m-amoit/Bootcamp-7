@@ -31,10 +31,7 @@ x:10, y:20, z:30
 x:10, y:40, 
 x:4, y:5, z: 50
 '''
-for i in f:
-	if len(i)==2:
-		print 'x:{}, y:{}'.format(i)
-	print 'x:{}, y:{}, z:{}'.format(i)
+
 	
 
 # print 'x:{}, y:{}, z:{}'.format(x, y, z)
