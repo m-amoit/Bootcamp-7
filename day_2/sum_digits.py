@@ -5,9 +5,8 @@ def sum_digits(A):
 	[10, 30, 45] should return 1 + 0 + 3 + 0 + 4 + 5
 	'''
 	total = 0
-	for i in A:
-		for i in str(i):
-			total += int(i)
+	for i in "".join([str(a) for a in A]):
+		total += int(i)
 	
 	return total
 
