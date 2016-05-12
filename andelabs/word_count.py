@@ -15,4 +15,3 @@ def words(A):
 
 		
 
-print words('one fish two fish red fish blue fish')
